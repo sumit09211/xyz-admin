@@ -1,0 +1,55 @@
+/*
+ * Mixins  -> Animation
+ * ==============================================
+*/
+
+@keyframes dropdownAnimation {
+  from {
+    opacity: 0;
+    margin-top: -30px;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+.dropdown-animation {
+  animation: dropdownAnimation .25s both;
+}
+
+
+/*
+ * Mixins  -> Breakpoint
+ * ==============================================
+*/
+
+
+@mixin breakpoint($point) {
+   @if $point == xl {
+	    @media (max-width: 1200px) { 
+	    	@content ; 
+	    }
+	}
+   @else if $point == lg {
+	    @media (max-width: 1024px) { 
+	    	@content ; 
+	    }
+	}
+    @else if $point == md {
+	    @media (max-width: 991px) { 
+	    	@content ; 
+	    }
+	}
+   @else if $point == sm {
+	    @media (max-width: 767px)  { 
+	    	@content ; 
+	    }
+	}
+  @else if $point == xs {
+	    @media (max-width: 575px)  { 
+	    	@content ; 
+	    }
+	}
+}

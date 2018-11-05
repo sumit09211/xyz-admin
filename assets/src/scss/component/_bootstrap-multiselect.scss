@@ -1,0 +1,42 @@
+//  bootstrap Multiselect
+
+.multiselect-ui{
+    + .btn-group{
+        width: $full;
+    }
+}
+.multiselect{
+    width: $full;
+    &.btn{
+        padding: 6.25px 8px;
+        width: 100%;
+        background: $transparent;
+        color: #c2c2c2;
+        text-align: left;
+        // font-size: 13px;
+        &:hover, 
+        &:focus, 
+        &:active, 
+        &.active {
+            background: $transparent;
+            color: #c2c2c2;
+        }
+    }
+}
+.multiselect-container{
+    >li{
+        >a{
+            position: relative;
+            display: block;
+            padding-left: 1.25rem;
+            >label{
+            	padding-left: 20px;
+                >input[type=checkbox]{
+                    margin-top: .2rem;
+                    margin-left: -1.25rem;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+.bg-green{
+    background-color: $green !important;
+}
+.bg-aqua{
+    background-color: $aqua !important;
+}
+.bg-yellow{
+    background-color: $yellow !important;
+}
+.bg-maroon {
+    background-color: $maroon !important;
+}
+
+.small-box {
+    border-radius: $border-radius;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: $gutter-space;
+    box-shadow: $box-shadow-light;
+
+    > .inner {
+        padding: ($gutter-width / 3);
+        color: $white;
+
+        > h3 {
+            font-size: 20px;
+            font-weight: $font-weight-normal;
+            margin: 10px 0;
+        }
+    }
+
+    > .small-box-footer {
+        position: relative;
+        padding: 3px 0;
+        color: $white;
+        display: block;
+        z-index: 10;
+        background: rgba(0,0,0,0.1);
+        &:hover {
+            color: #fff;
+            background: rgba(0,0,0,0.15);
+        }
+    }
+}
+
+
+//  Mini Stats
+
+.mini-stat {
+    background: $white;
+    padding: ($gutter-width / 3);
+    border-radius: $border-radius;
+    margin-bottom: $gutter-space;
+    box-shadow: $box-shadow-lighter;
+
+    .mini-stat-icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .mini-stat-info {
+        span {
+            display: block;
+            font-size: 24px;
+            font-weight: $font-weight-medium;
+        }
+    }
+}
+
+
+   

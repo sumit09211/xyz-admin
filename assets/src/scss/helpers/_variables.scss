@@ -1,0 +1,139 @@
+/*
+ * 1.1  -> Font Awesome
+ * ==============================================
+*/
+
+$fa-font-path: "../fonts";
+
+/*
+ * 1.2  -> Base
+ * ==============================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+
+// Font
+$base-font-family: 'Poppins', sans-serif;
+$base-font-size: 13px;
+$base-font-weight: 500;
+$base-font-color: #767676;
+
+// Background
+$base-bg-color: #f1f2f7;
+
+// font-weight
+$font-weight-normal: 500;
+$font-weight-medium: 600;
+$font-weight-bold: 700;
+
+/*
+ * 1.3  -> Colors
+ * ==============================================
+*/
+
+$primary: #2290ff;
+$default: #c7cbd6;
+$success: #95b75d;
+$danger: #fa8564;
+$info: #269abc;
+$white: #fff;
+$black: #000;
+$transparent: transparent;
+
+$green: #00a65a;
+$aqua: #00c0ef;
+$yellow: #f39c12;
+$maroon: #e66b98;
+
+
+$color-shade: 11.4%;
+
+// Colors Map
+
+$colors: (
+	primary : (
+		base: $primary,
+		light: lighten($primary, $color-shade),
+		dark: darken($primary, $color-shade)
+	),
+	success : (
+		base: $success,
+		light: lighten($success, $color-shade),
+		dark: darken($success, $color-shade)
+	),
+	default : (
+		base: $default,
+		light: lighten($default, $color-shade),
+		dark: darken($default, $color-shade)
+	),
+	danger : (
+		base:$danger,
+		light: lighten($danger, $color-shade),
+		dark: darken($danger, $color-shade)
+	),
+	info : (
+		base:$info,
+		light: lighten($info, $color-shade),
+		dark: darken($info, $color-shade)
+	)
+);
+
+
+/*
+ * 1.4  -> Spacing
+ * ==============================================
+*/
+
+
+$gutter-width: 30px;
+$gutter-space: $gutter-width / 2;
+
+
+/*
+ * 1.5  -> Shadow
+ * ==============================================
+*/
+
+$box-shadow-lighter: 0 0 1px rgba(0, 0, 0, 0.1);
+$box-shadow-light: 1px 0 3px rgba(0, 0, 0, 0.15);
+
+/*
+ * 1.6  -> Transitions
+ * ==============================================
+*/
+
+$transition-base: all .2s ease-in-out;
+
+/*
+ * 1.7  -> Width
+ * ==============================================
+*/
+
+$full: 100%;
+$none: 0;
+
+/*
+ * 1.8  -> Border and Border Radius
+ * ==============================================
+*/
+
+$border-radius: 2px;
+$border-radius-lg: 4px;
+$border-radius-round: 100%;
+
+/*
+ * 1.9  -> Header
+ * ==============================================
+*/
+
+$header-height: 56px;
+$header-height-m: 99px;
+
+
+/*
+ * 1.9  -> Sidebar
+ * ==============================================
+*/
+
+$sidebar-width: 240px;
+$sidebar-mini-width: 70px;

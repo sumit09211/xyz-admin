@@ -1,0 +1,19 @@
+/*pagination*/
+
+.pagination > li > a, 
+.pagination > li > span {
+    background-color: #EFF2F7;
+    border: 1px solid #EFF2F7;
+    float: left;
+    line-height: 1.42857;
+    margin-left: 1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus, .pagination > li.active > a, .pagination > li.active > a:hover {
+    background-color: #2eb4ad;
+    border-color: #2eb4ad;
+    color: #fff;
+}

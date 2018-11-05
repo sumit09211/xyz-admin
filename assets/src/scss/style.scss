@@ -1,0 +1,212 @@
+/*
+ * 1.1  -> Font Awesome
+ * ==============================================
+*/
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'helpers/variables.scss';
+@import 'helpers/mixins.scss';
+@import 'helpers/functions.scss';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/fa-solid.scss';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/fa-regular.scss';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/fa-brands.scss';
+
+@import 'plugins/bootstrap-multiselect.scss';
+@import 'plugins/datatables.scss';
+
+@import 'base/global.scss';
+@import 'base/reset.scss';
+@import 'base/typography.scss';
+
+@import 'bootstrap-reset.scss';
+
+@import 'component/buttons.scss';
+@import 'component/dropdowns.scss';
+@import 'component/forms.scss';
+@import 'component/pagination.scss';
+@import 'component/datatables.scss';
+@import 'component/bootstrap-multiselect.scss';
+
+@import 'layout/header.scss';
+@import 'layout/sidebar.scss';
+@import 'layout/content.scss';
+@import 'layout/footer.scss';
+
+@import 'template/login.scss';
+@import 'template/dashboard.scss';
+
+
+
+
+// .table-bordered {
+//     border: 0;
+// }
+
+table{
+
+    & td span{
+        word-wrap: break-word;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        width: 50vh;
+    }
+}
+
+
+.red{
+    color:#dc3545;
+}
+
+.bootbox-body{
+    font-size:18px;
+}
+
+.close {
+    font-size: 1.2rem;
+}
+
+.application{
+    .form-group{
+        display:inline-block;
+    }
+    /*.btn-group{
+        width:100%;
+        button{
+            width:100%;
+        }*/
+        .multiselect-container{
+            width:100%;
+        }
+    }
+
+
+
+
+.btn-default:focus,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus{
+    box-shadow: none;
+}
+
+
+/* autocomplete*/
+.ui-autocomplete{
+    background: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute !important;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    .ui-menu-item{
+        padding:10px;
+        border-bottom:1px solid #c2c2c2;
+        cursor:pointer;
+    }
+}
+.multiselect-popup{
+    margin-bottom:15px;
+}
+
+@media (max-width : 768px ) {
+
+    table{
+        width:100% !important;
+    }
+    table.dataTable{
+        & th:nth-of-type(3),
+        & th:nth-of-type(4),
+        & th:nth-of-type(5),
+        & th:nth-of-type(6),
+        & th:nth-of-type(7),
+        & td:nth-of-type(3),
+        & td:nth-of-type(4),
+        & td:nth-of-type(5),
+        & td:nth-of-type(6),
+        & td:nth-of-type(7){
+            display:none;
+        }
+        & th:last-child,
+        & td:last-child,
+        & th:nth-of-type(2),
+        & td:nth-of-type(2){
+            display: table-cell;
+            width:auto !important;
+        }
+    }
+}
+
+
+@media(max-width:565px){
+    // #main-content{
+    //     margin-top:70px;
+    // }
+    .app-login-container .app-login-content {
+        max-width: 300px;
+    }
+    .dataTables_paginate a{
+        font-size:12px;
+    }
+    .app-header .brand{
+        width:100%;
+    }
+    // .sidebar-toggle-box{
+    //     right:30px;
+    // }
+    // .app-sidebar{
+    //     margin-top:60px;
+    // }
+    // .form-group:last-child {
+    //     margin-bottom: 1rem;
+    // }
+    .multiselect-popup{
+        margin-bottom:0;
+    }
+    .dropdown-toggle.btn{
+        margin-bottom:0;
+    }
+    #Appusermapping .card-header{
+        display: inline-flex;
+    }
+}
+
+
+@media (max-width: 380px) {
+
+    #Appusermapping .card-header {
+        display: inline-flex;
+    }
+}
+
+
+/*27072018 start*/
+.tablen th{ border-top:none; }
+.tablen tbody > tr > th{ padding-top:0px;}
+.tablen{ margin-bottom:0px;}
+.tablen tbody tr:last-child td{ padding-bottom:0px;}
+
+
+
+.mr5{ margin-right:5px;}
+
+.widget-user-image{position: absolute; top: 10px; right: 5px; }
+.widget-user-image img{ height:30px;}
+
+.loginforget .modal-header .close{ padding:0px; margin:0px}
+
+.labels:after{ content:"*" ; color:red ;}
+
+.textbreak, .bootbox-body{word-break: break-all;}
+
+
+/*27072018 end*/
+/*09082018 start*/
+.UL_userlist li a.closeuser{ top:-10px; right:-5px; cursor: pointer;}
+.ui-helper-hidden-accessible{ font-size:11px; display:none;}
+.tblmultioveridecl ul.dropdown-menu{ width:100%; height:200px; overflow-y:auto;}
+.tblmultioveridecl .multiselect-container>li>a>label{padding:3px 20px 3px 20px;}
+/*09082018 end*/

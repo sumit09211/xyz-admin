@@ -1,0 +1,828 @@
+@font-face {
+  font-family: 'Cisco-icons';
+  src:  url('fonts/Cisco-icons.eot?l7nmbn');
+  src:  url('fonts/Cisco-icons.eot?l7nmbn#iefix') format('embedded-opentype'),
+    url('fonts/Cisco-icons.woff2?l7nmbn') format('woff2'),
+    url('fonts/Cisco-icons.ttf?l7nmbn') format('truetype'),
+    url('fonts/Cisco-icons.woff?l7nmbn') format('woff'),
+    url('fonts/Cisco-icons.svg?l7nmbn#Cisco-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="dna-"], [class*="dna-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Cisco-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dna-sm-ap .path1:before {
+  content: "\e9d8";
+  color: rgb(4, 159, 217);
+}
+.dna-sm-ap .path2:before {
+  content: "\e9d9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.dna-sm-ap .path3:before {
+  content: "\e9dd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-ap .path4:before {
+  content: "\e9de";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-ap .path5:before {
+  content: "\e9df";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-ap .path6:before {
+  content: "\e9e1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-apAsSensor .path1:before {
+  content: "\e9e6";
+  color: rgb(4, 159, 217);
+}
+.dna-sm-apAsSensor .path2:before {
+  content: "\e9e9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.dna-sm-apAsSensor .path3:before {
+  content: "\e9ea";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-apAsSensor .path4:before {
+  content: "\e9eb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-apAsSensor .path5:before {
+  content: "\e9ec";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-apAsSensor .path6:before {
+  content: "\e9ed";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-farallon .path1:before {
+  content: "\e9ee";
+  color: rgb(4, 159, 217);
+}
+.dna-sm-farallon .path2:before {
+  content: "\e9ef";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.dna-sm-farallon .path3:before {
+  content: "\e9f0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-farallon .path4:before {
+  content: "\e9f1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-farallon .path5:before {
+  content: "\e9f2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-farallon .path6:before {
+  content: "\e9f3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-radioAsSensor .path1:before {
+  content: "\e9f4";
+  color: rgb(4, 159, 217);
+}
+.dna-sm-radioAsSensor .path2:before {
+  content: "\e9f5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.dna-sm-radioAsSensor .path3:before {
+  content: "\e9f6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-radioAsSensor .path4:before {
+  content: "\e9f7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-radioAsSensor .path5:before {
+  content: "\e9f8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-radioAsSensor .path6:before {
+  content: "\e9f9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-radioAsSensor .path7:before {
+  content: "\e9fa";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-sm-radioAsSensor .path8:before {
+  content: "\e9fb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.dna-Error16:before {
+  content: "\e9af";
+}
+.dna-Info16:before {
+  content: "\e9b0";
+}
+.dna-warning16:before {
+  content: "\e9d3";
+}
+.dna-path-trace:before {
+  content: "\e9d4";
+}
+.dna-wired1:before {
+  content: "\e9e0";
+}
+.dna-wireless:before {
+  content: "\e9e3";
+}
+.dna-site-fill:before {
+  content: "\e9e7";
+}
+.dna-site2:before {
+  content: "\e9e8";
+}
+.dna-areas:before {
+  content: "\e9da";
+}
+.dna-obstacles:before {
+  content: "\e9dc";
+}
+.dna-zoomin:before {
+  content: "\e9e4";
+}
+.dna-zoomout:before {
+  content: "\e9e5";
+}
+.dna-sudi_authenticated:before {
+  content: "\e9a6";
+}
+.dna-sudi-failed:before {
+  content: "\e9b1";
+}
+.dna-sudi-required:before {
+  content: "\e9b2";
+}
+.dna-sudi:before {
+  content: "\e9b3";
+}
+.dna-design:before {
+  content: "\e9b4";
+}
+.dna-design2:before {
+  content: "\e9b5";
+}
+.dna-policy:before {
+  content: "\e9b6";
+}
+.dna-policy2:before {
+  content: "\e9b7";
+}
+.dna-provision:before {
+  content: "\e9b8";
+}
+.dna-provision2:before {
+  content: "\e9b9";
+}
+.dna-assurance:before {
+  content: "\e9ba";
+}
+.dna-assurance2:before {
+  content: "\e9bb";
+}
+.dna-discovery:before {
+  content: "\e9bc";
+}
+.dna-discovery2:before {
+  content: "\e9bd";
+}
+.dna-device-inventory:before {
+  content: "\e9be";
+}
+.dna-device-inventory2:before {
+  content: "\e9bf";
+}
+.dna-topology:before {
+  content: "\e9c0";
+}
+.dna-topology2:before {
+  content: "\e9c1";
+}
+.dna-network-hierarchy2:before {
+  content: "\e9c2";
+}
+.dna-network-hierarchy:before {
+  content: "\e9c3";
+}
+.dna-network-settings:before {
+  content: "\e9c4";
+}
+.dna-network-settings2:before {
+  content: "\e9c5";
+}
+.dna-image-management:before {
+  content: "\e9c6";
+}
+.dna-image-management2:before {
+  content: "\e9c7";
+}
+.dna-network-profile:before {
+  content: "\e9c8";
+}
+.dna-network-profile2:before {
+  content: "\e9c9";
+}
+.dna-fabric:before {
+  content: "\e9ca";
+}
+.dna-fabric2:before {
+  content: "\e9cb";
+}
+.dna-virtual-network:before {
+  content: "\e9cc";
+}
+.dna-virtual-network2:before {
+  content: "\e9cd";
+}
+.dna-application-priority2:before {
+  content: "\e9ce";
+}
+.dna-application-priority:before {
+  content: "\e9cf";
+}
+.dna-access-control-policy:before {
+  content: "\e9d0";
+}
+.dna-access-control-policy2:before {
+  content: "\e9d1";
+}
+.dna-traffic-copies:before {
+  content: "\e9d2";
+}
+.dna-traffic-copies2:before {
+  content: "\e9d5";
+}
+.dna-plug-and-play:before {
+  content: "\e9d6";
+}
+.dna-plug-and-play2:before {
+  content: "\e9d7";
+}
+.dna-Clock-Line:before {
+  content: "\e99d";
+}
+.dna-Clock-Filled:before {
+  content: "\e9ae";
+}
+.dna-badge-firewall:before {
+  content: "\e99f";
+}
+.dna-badge-wlc:before {
+  content: "\e9a4";
+}
+.dna-Unknown-Device-Filled:before {
+  content: "\e9a5";
+}
+.dna-Unknown-Device:before {
+  content: "\e9a7";
+}
+.dna-AccessPointHover:before {
+  content: "\e9a8";
+}
+.dna-RouterHover:before {
+  content: "\e9aa";
+}
+.dna-SwitchHover:before {
+  content: "\e9ab";
+}
+.dna-WLCHover:before {
+  content: "\e9ac";
+}
+.dna-Edit-filled:before {
+  content: "\e9ad";
+}
+.dna-aaa-filled:before {
+  content: "\e900";
+}
+.dna-access-point-filled:before {
+  content: "\e901";
+}
+.dna-add-circle-filled:before {
+  content: "\e902";
+}
+.dna-alerts-filled:before {
+  content: "\e903";
+}
+.dna-applications-filled:before {
+  content: "\e904";
+}
+.dna-building-filled:before {
+  content: "\e905";
+}
+.dna-card-reader-filled:before {
+  content: "\e906";
+}
+.dna-check-mark-circle-filled:before {
+  content: "\e907";
+}
+.dna-clients-filled:before {
+  content: "\e908";
+}
+.dna-close-left-filled:before {
+  content: "\e909";
+}
+.dna-close-up-filled:before {
+  content: "\e90a";
+}
+.dna-cloud-filled:before {
+  content: "\e90b";
+}
+.dna-compliance-filled:before {
+  content: "\e90c";
+}
+.dna-dashboard-view-filled:before {
+  content: "\e90d";
+}
+.dna-desktop-phones-filled:before {
+  content: "\e90e";
+}
+.dna-desktops-filled:before {
+  content: "\e90f";
+}
+.dna-dhcp-filled:before {
+  content: "\e910";
+}
+.dna-dns-filled:before {
+  content: "\e911";
+}
+.dna-drop-down:before {
+  content: "\e912";
+}
+.dna-dnfv-filled:before {
+  content: "\e913";
+}
+.dna-fax-filled:before {
+  content: "\e914";
+}
+.dna-filter-filled:before {
+  content: "\e915";
+}
+.dna-firewall-filled:before {
+  content: "\e916";
+}
+.dna-floor-filled:before {
+  content: "\e917";
+}
+.dna-game-filled:before {
+  content: "\e918";
+}
+.dna-help-tip-filled:before {
+  content: "\e919";
+}
+.dna-info-tip-filled:before {
+  content: "\e91a";
+}
+.dna-info-filled:before {
+  content: "\e91b";
+}
+.dna-laptops-filled:before {
+  content: "\e91c";
+}
+.dna-list-view-filled:before {
+  content: "\e91d";
+}
+.dna-locked-sm-filled:before {
+  content: "\e91e";
+}
+.dna-locked-filled:before {
+  content: "\e91f";
+}
+.dna-map-view-filled:before {
+  content: "\e920";
+}
+.dna-matrix-view-filled:before {
+  content: "\e921";
+}
+.dna-multiple-filled:before {
+  content: "\e922";
+}
+.dna-network-cloud-filled:before {
+  content: "\e923";
+}
+.dna-network-filled:before {
+  content: "\e924";
+}
+.dna-open-down-filled:before {
+  content: "\e925";
+}
+.dna-open-right-filled:before {
+  content: "\e926";
+}
+.dna-pause-filled:before {
+  content: "\e927";
+}
+.dna-pin-filled:before {
+  content: "\e928";
+}
+.dna-play-filled:before {
+  content: "\e929";
+}
+.dna-printer-filled:before {
+  content: "\e92a";
+}
+.dna-router-filled:before {
+  content: "\e92b";
+}
+.dna-security-filled:before {
+  content: "\e92c";
+}
+.dna-settings-filled:before {
+  content: "\e92d";
+}
+.dna-site-filled:before {
+  content: "\e92e";
+}
+.dna-smart-watch-filled:before {
+  content: "\e92f";
+}
+.dna-smartphones-filled:before {
+  content: "\e930";
+}
+.dna-ssid-filled:before {
+  content: "\e931";
+}
+.dna-star-filled:before {
+  content: "\e932";
+}
+.dna-status-error-filled:before {
+  content: "\e933";
+}
+.dna-status-warning-filled:before {
+  content: "\e934";
+}
+.dna-surveillance-filled:before {
+  content: "\e935";
+}
+.dna-switch-filled:before {
+  content: "\e936";
+}
+.dna-table-view-filled:before {
+  content: "\e937";
+}
+.dna-tablets-filled:before {
+  content: "\e938";
+}
+.dna-telepresence-filled:before {
+  content: "\e939";
+}
+.dna-thumb-down-filled:before {
+  content: "\e93a";
+}
+.dna-thumb-up-filled:before {
+  content: "\e93b";
+}
+.dna-topology-view-filled:before {
+  content: "\e93c";
+}
+.dna-unlocked-sm-filled:before {
+  content: "\e93d";
+}
+.dna-unlocked-filled:before {
+  content: "\e93e";
+}
+.dna-upload-circle-filled:before {
+  content: "\e93f";
+}
+.dna-view-grid-filled:before {
+  content: "\e940";
+}
+.dna-vwaas-filled:before {
+  content: "\e941";
+}
+.dna-wlc-filled:before {
+  content: "\e942";
+}
+.dna-aaa:before {
+  content: "\e943";
+}
+.dna-access-point:before {
+  content: "\e944";
+}
+.dna-add-circle:before {
+  content: "\e945";
+}
+.dna-add:before {
+  content: "\e946";
+}
+.dna-applications:before {
+  content: "\e947";
+}
+.dna-building:before {
+  content: "\e948";
+}
+.dna-calendar:before {
+  content: "\e949";
+}
+.dna-card-reader:before {
+  content: "\e94a";
+}
+.dna-check-mark-circle:before {
+  content: "\e94b";
+}
+.dna-check-mark:before {
+  content: "\e94c";
+}
+.dna-clients:before {
+  content: "\e94d";
+}
+.dna-close-left:before {
+  content: "\e94e";
+}
+.dna-close-up:before {
+  content: "\e94f";
+}
+.dna-close-remove:before {
+  content: "\e950";
+}
+.dna-cloud:before {
+  content: "\e951";
+}
+.dna-collapse:before {
+  content: "\e952";
+}
+.dna-compliance:before {
+  content: "\e953";
+}
+.dna-deploy:before {
+  content: "\e954";
+}
+.dna-desktop-phones:before {
+  content: "\e955";
+}
+.dna-desktops:before {
+  content: "\e956";
+}
+.dna-dchp:before {
+  content: "\e957";
+}
+.dna-dns:before {
+  content: "\e958";
+}
+.dna-edit:before {
+  content: "\e95a";
+}
+.dna-enfv:before {
+  content: "\e95b";
+}
+.dna-expand:before {
+  content: "\e95c";
+}
+.dna-export:before {
+  content: "\e95d";
+}
+.dna-fax:before {
+  content: "\e95e";
+}
+.dna-filter:before {
+  content: "\e95f";
+}
+.dna-find:before {
+  content: "\e960";
+}
+.dna-firewall:before {
+  content: "\e961";
+}
+.dna-floor:before {
+  content: "\e962";
+}
+.dna-game:before {
+  content: "\e963";
+}
+.dna-hide-field:before {
+  content: "\e964";
+}
+.dna-import:before {
+  content: "\e965";
+}
+.dna-info:before {
+  content: "\e966";
+}
+.dna-inherited-settings:before {
+  content: "\e967";
+}
+.dna-laptops:before {
+  content: "\e968";
+}
+.dna-left:before {
+  content: "\e969";
+}
+.dna-locked:before {
+  content: "\e96a";
+}
+.dna-multi-direction:before {
+  content: "\e96b";
+}
+.dna-multiple:before {
+  content: "\e96c";
+}
+.dna-network-cloud:before {
+  content: "\e96d";
+}
+.dna-network:before {
+  content: "\e96e";
+}
+.dna-next:before {
+  content: "\e96f";
+}
+.dna-open-down:before {
+  content: "\e970";
+}
+.dna-open-right:before {
+  content: "\e971";
+}
+.dna-pin:before {
+  content: "\e972";
+}
+.dna-previous:before {
+  content: "\e973";
+}
+.dna-printer:before {
+  content: "\e974";
+}
+.dna-refresh:before {
+  content: "\e975";
+}
+.dna-right:before {
+  content: "\e976";
+}
+.dna-router:before {
+  content: "\e977";
+}
+.dna-search:before {
+  content: "\e978";
+}
+.dna-security:before {
+  content: "\e979";
+}
+.dna-sensor-access-point:before {
+  content: "\e97a";
+}
+.dna-sensor:before {
+  content: "\e97b";
+}
+.dna-site:before {
+  content: "\e97c";
+}
+.dna-smart-watch:before {
+  content: "\e97d";
+}
+.dna-smartphones:before {
+  content: "\e97e";
+}
+.dna-ssid:before {
+  content: "\e97f";
+}
+.dna-status-error:before {
+  content: "\e980";
+}
+.dna-status-warning:before {
+  content: "\e981";
+}
+.dna-surveillance:before {
+  content: "\e982";
+}
+.dna-switch:before {
+  content: "\e983";
+}
+.dna-tablets:before {
+  content: "\e984";
+}
+.dna-telepresence:before {
+  content: "\e985";
+}
+.dna-thumb-down:before {
+  content: "\e986";
+}
+.dna-thumb-up:before {
+  content: "\e987";
+}
+.dna-unknown:before {
+  content: "\e988";
+}
+.dna-unlocked:before {
+  content: "\e989";
+}
+.dna-upload-circle:before {
+  content: "\e98a";
+}
+.dna-upload:before {
+  content: "\e98b";
+}
+.dna-view-field:before {
+  content: "\e98c";
+}
+.dna-vwaas:before {
+  content: "\e98d";
+}
+.dna-wlc:before {
+  content: "\e98e";
+}
+.dna-trash:before {
+  content: "\e9a9";
+}
+.dna-drop-down-site:before {
+  content: "\e99b";
+}
+.dna-grabHandle:before {
+  content: "\e99e";
+}
+.dna-checkmark-inline:before {
+  content: "\e959";
+}
+.dna-checkbox-disabled:before {
+  content: "\e994";
+}
+.dna-checkbox-partial:before {
+  content: "\e99c";
+}
+.dna-checkbox-selected:before {
+  content: "\e995";
+}
+.dna-checkbox-unselected:before {
+  content: "\e996";
+}
+.dna-radio-disabled:before {
+  content: "\e997";
+}
+.dna-radio-selected:before {
+  content: "\e998";
+}
+.dna-radio-unselected:before {
+  content: "\e99a";
+}
+.dna-edit-area:before {
+  content: "\e990";
+}
+.dna-center-align:before {
+  content: "\e98f";
+}
+.dna-fill-align:before {
+  content: "\e991";
+}
+.dna-left-align:before {
+  content: "\e9a0";
+}
+.dna-grabber:before {
+  content: "\e992";
+}
+.dna-ids:before {
+  content: "\e993";
+}
+.dna-ips:before {
+  content: "\e999";
+}
+.dna-link:before {
+  content: "\e9a1";
+}
+.dna-right-align:before {
+  content: "\e9a2";
+}
+.dna-stack:before {
+  content: "\e9a3";
+}
+.dna-grid:before {
+  content: "\e9db";
+}

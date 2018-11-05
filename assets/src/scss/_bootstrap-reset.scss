@@ -1,0 +1,122 @@
+// Bootstrap grid
+
+.row{
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+    > [class*="col-"]{
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+    }
+}
+
+
+
+
+
+
+.alert ul{
+    font-size: 12px;
+}
+
+
+
+// dropdown toggle
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+
+/*label*/
+
+.label {
+    padding: 0.5em 0.8em;
+}
+
+
+/*text color*/
+
+.text-danger {
+    color: #FF6C60;
+}
+
+.text-muted {
+    color: #a1a1a1;
+}
+
+.text-primary {
+    color: #59ace2;
+}
+
+.text-warning {
+    color: #FCB322;
+}
+
+.text-success {
+    color: #A9D86E;
+}
+
+.text-info {
+    color: #8175c7;
+}
+
+/*modal*/
+
+.modal-content {
+    box-shadow: none;
+    border: none;
+}
+.modal-header {
+    background: #FAFAFA;
+    color: #333;
+    border-radius: 5px 5px 0 0;
+    padding: .7rem 1rem;
+    .modal-title{
+        font-size: 1rem;
+    }
+    .close{
+        margin-top: 0;    
+    }
+}
+.modal-footer{
+    padding: .7rem 1rem;
+}
+
+/*tab*/
+
+.nav-tabs > li > a {
+    margin-right: 1px;
+}
+
+
+/*alert*/
+
+.alert-success, .alert-danger, .alert-info, .alert-warning {
+    border: none;
+}
+
+/*table*/
+
+.table thead > tr > th, 
+.table tbody > tr > th, 
+.table tfoot > tr > th, 
+.table thead > tr > td, 
+.table tbody > tr > td, 
+.table tfoot > tr > td {
+    padding: 10px;
+}
+
+
+// Card Header
+
+.card-header{
+    font-size: 15px;
+    padding: 0.60rem;
+}  
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+/*login page*/
+.app-login-page {
+    //background:#32323A;
+    background:url(../../../images/Observer-Login.jpg) center center no-repeat;
+    background-size:cover;
+}
+.app-login-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right:100px;
+    .app-login-content{
+        max-width: 330px;
+        background: $white;
+        //border-radius: 5px;
+        overflow: hidden;
+        .brand{
+            background-color: #e86d0d;
+            padding: 30px;
+        }
+    }
+}
+.form-signin {
+    padding: 30px 15px;
+}
+
+.form-signin a,
+.form-signin a:hover {
+    color:#1fb5ac;
+}
+.form-signin a:hover {
+    text-decoration:underline;
+}
+
+.form-actions{
+    .btn-login{ 
+        background:#e86d0d;
+        border-radius:0;
+        color:#fff;
+        &:hover{
+            background:#e38c48;
+        }
+     }
+}
+@media(max-width:768px){
+    .app-login-container {
+        justify-content: center;
+        margin: 15px;
+    }
+}
